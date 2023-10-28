@@ -1,0 +1,6 @@
+.background-image {
+    background-image: url('https://media.discordapp.net/attachments/1091296534370471997/1167376961568526356/illust_107475134_20231027_151532.png?'); /* Specify the URL of your background image */
+    background-size: cover; /* Adjust background size as needed */
+    background-position: center; /* Adjust background position as needed */
+    background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
+  }

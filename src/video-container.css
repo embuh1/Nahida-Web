@@ -1,0 +1,7 @@
+.video-container {
+    display: flex;
+    justify-content: start; /* Menggeser video secara horizontal ke tengah */
+    align-items: start; /* Menggeser video secara vertikal ke tengah */
+    height: 100vh; /* Menentukan ketinggian sesuai kebutuhan */
+  }
+  
