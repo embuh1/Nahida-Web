@@ -7,7 +7,7 @@ const navigation = [
   { name: "Home", href: "/", current: true },
   { name: "Pictures", href: "Product", current: false },
   { name: "Video", href: "Features", current: false },
-  { name: "Music", href: "Music", current: false },
+  { name: "Audio", href: "Music", current: false },
 ];
 
 function classNames(...classes) {
@@ -51,7 +51,7 @@ export default function Example() {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? "bg-green-800 text-lime-300"
+                            ? "bg-green-700 text-lime-400 hover:text-white"
                             : "text-green-600 hover:text-white",
                           "rounded-md px-3 py-2 text-sm font-medium"
                         )}
@@ -64,7 +64,7 @@ export default function Example() {
                 </div>
                 <div class="max-w-md mx-auto">
                   <div class="relative flex items-center w-full h-12 rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
-                    <div class="grid place-items-center h-full w-12 text-gray-300">
+                    <div class="grid place-items-center h-full w-12 text-green-600">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-6 w-6"
@@ -82,7 +82,7 @@ export default function Example() {
                     </div>
 
                     <input
-                      class="peer h-full w-full outline-none text-sm text-gray-700 pr-2"
+                      class="peer h-full w-full outline-none text-sm text-green-700 pr-2"
                       type="text"
                       id="search"
                       placeholder="Search something.."
@@ -93,7 +93,7 @@ export default function Example() {
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <button
                   type="button"
-                  className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                  className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 focus:ring-offset-gray-800"
                 >
                   <span className="absolute -inset-1.5" />
                   <span className="sr-only">View notifications</span>
@@ -103,7 +103,7 @@ export default function Example() {
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative ml-3">
                   <div>
-                    <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                    <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 focus:ring-offset-gray-800">
                       <span className="absolute -inset-1.5" />
                       <span className="sr-only">Open user menu</span>
                       <img
@@ -126,7 +126,7 @@ export default function Example() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="https://github.com/embuh1"
                             className={classNames(
                               active ? "bg-gray-100" : "",
                               "block px-4 py-2 text-sm text-gray-700"
@@ -139,26 +139,13 @@ export default function Example() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
-                            className={classNames(
-                              active ? "bg-gray-100" : "",
-                              "block px-4 py-2 text-sm text-gray-700"
-                            )}
-                          >
-                            Settings
-                          </a>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
                             href="/Sign-In"
                             className={classNames(
                               active ? "bg-gray-100" : "",
                               "block px-4 py-2 text-sm text-gray-700"
                             )}
                           >
-                            Sign out
+                            Sign In
                           </a>
                         )}
                       </Menu.Item>

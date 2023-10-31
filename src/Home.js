@@ -1,11 +1,9 @@
 import Navbar from "./Navbar";
-import "./YourStyles.css";
-import "./video-container.css";
 import React from "react";
 
 export default function Example() {
   return (
-    <div className="background-image background-image bg-gray-100 background-image min-h-screen items-center justify-center">
+    <div className="background-image1 min-h-screen items-center justify-center">
       <Navbar />
       <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
         <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
@@ -33,9 +31,10 @@ export default function Example() {
               Selamat Datang di Website Nahida
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Features :<br></br>- Pictures
+              Features :
+              <br></br>- Pictures
               <br></br>- video
-              <br></br>- Music (Masih belum jadi)
+              <br></br>- Audio (Masih belum jadi)
               <br></br>- dll.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
@@ -45,24 +44,28 @@ export default function Example() {
               >
                 Learn More <span aria-hidden="true">→</span>
               </a>
+              <a href="https://github.com/embuh1">
               <img
                 src="https://media.discordapp.net/attachments/1091296534370471997/1167311280848257084/-Nahida-Roll-n-Rock-PUBG-Victo-unscreen.gif?"
                 alt="Nahida"
                 width={150}
                 height={150}
               />
+              </a>
             </div>
           </div>
           <div className="relative mt-16 h-80 lg:mt-8">
             <div>
-              <video controls width="400" height="100">
-                <source
-                  src="https://cdn.discordapp.com/attachments/1076500882813898785/1167478572424892506/VID_70161027_130209_031.mp4?ex=654e4626&is=653bd126&hm=001599882d9e10446152e87301e3db39897866e33f496e12009df86312c79fe0&"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-              <h2 className="text-1xl font-Sans font-semibold text-blue-600 sm:text-2xl">
+              <div class="video1">
+                <video controls width="400" height="100">
+                  <source
+                    src="https://cdn.discordapp.com/attachments/1076500882813898785/1167478572424892506/VID_70161027_130209_031.mp4?"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <h2 className="text-1xl font-Sans font-semibold text-blue-600 sm:text-2xl items-end">
                 Powered By :
               </h2>
               <a href="https://discord.gg/VNRHrcn8">

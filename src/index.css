@@ -15,3 +15,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.background-image1 {
+  background-image: url('https://media.discordapp.net/attachments/1091296534370471997/1167376938076221490/illust_111369621_20231027_151506.jpg?'); /* Specify the URL of your background image */
+  background-size: cover; /* Adjust background size as needed */
+  background-position: center; /* Adjust background position as needed */
+  background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
+}
+.background-image2 {
+  background-image: url('https://media.discordapp.net/attachments/1091296534370471997/1167377009228398602/illust_107550217_20231027_151252.png?'); /* Specify the URL of your background image */
+  background-size: cover; /* Adjust background size as needed */
+  background-position: center; /* Adjust background position as needed */
+  background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
+}
+.background-image3 {
+  background-image: url('https://media.discordapp.net/attachments/1091296534370471997/1167376989951381534/illust_111550697_20231027_151623.png?'); /* Specify the URL of your background image */
+  background-size: cover; /* Adjust background size as needed */
+  background-position: center; /* Adjust background position as needed */
+  background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
+}
+.background-image4 {
+  background-image: url('https://media.discordapp.net/attachments/1091296534370471997/1167377026156605440/illust_106934558_20231027_151353.png?ex=654de793&is=653b7293&hm=405de0aa0766b41a2e170d95e68d8d8233dbcf9e895fb852739de2d789859f1e&=&width=883&height=588'); /* Specify the URL of your background image */
+  background-size: cover; /* Adjust background size as needed */
+  background-position: center; /* Adjust background position as needed */
+  background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
+}
+.videos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.video {
+  margin: 10px;
+  background: #e6f7ff;
+  padding: 10px;
+  border: 1px solid #00e60c;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.video1 {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
