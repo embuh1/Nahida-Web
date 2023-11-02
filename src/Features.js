@@ -105,10 +105,10 @@ export default function Example() {
 
         <div class="videos-container grid grid-cols-3 gap-3 items-center justify-center">
           <div class="video">
-            <h1 class="text-2xl font-semibold mb-4">wilson kembali 😂</h1>
+            <h1 class="text-2xl font-semibold mb-4">Bochi vs Zombies</h1>
             <video controls width="420" height="240">
               <source
-                src="https://cdn.discordapp.com/attachments/1076500882813898785/1168701093937676348/396505818_6491243974314103_6768173546488602338_n.mp4?"
+                src="https://cdn.discordapp.com/attachments/1076500882813898785/1158887350076706826/385096721_3567243506896981_3410264808212040930_n.mp4?"
                 type="video/mp4"
               />
               Your browser does not support the video tag.
@@ -116,17 +116,17 @@ export default function Example() {
             <br></br>
             <a
               class="bg-green-500 text-white py-2 px-4 mt-4 rounded hover:bg-green-600 transition"
-              href="https://cdn.discordapp.com/attachments/1076500882813898785/1168701093937676348/396505818_6491243974314103_6768173546488602338_n.mp4?ex=6552b8b6&is=654043b6&hm=ba05054041e486bb9bb48f865cce42008c2c09fdb6a3dc81904f2206b1e9a206&"
+              href="https://cdn.discordapp.com/attachments/1076500882813898785/1158887350076706826/385096721_3567243506896981_3410264808212040930_n.mp4?ex=6553eef3&is=654179f3&hm=3d9fa665a06590c59057724f70c423b602e9760eb4bcdf2ef30a3a5eff4d83fc&"
             >
               Download
             </a>
           </div>
 
           <div class="video">
-            <h1 class="text-2xl font-semibold mb-4">Sholat lah kamu, maka kau akan selamat 😂</h1>
-            <video controls width="200" height="100">
+            <h1 class="text-2xl font-semibold mb-4">Belajar Matematika</h1>
+            <video controls width="420" height="240">
               <source
-                src="https://cdn.discordapp.com/attachments/1076500882813898785/1166301547244814396/Gimana_pendapat_Anda_DISKON_BELANJA_50_CEK_STORY_YAA_Follow_langsingonlineDIET_SEHAT_BARENG_DOKTERFo..._dr.fatmaselisriFollow_dr.fatmaselisrisholat_ibadah_lucu_viral_humor_dietmenyenangkan_dietmulaisekarang_dietse.mp4?"
+                src="https://cdn.discordapp.com/attachments/1076500882813898785/1156934417630113842/381171569_979544316664263_6248140325866608576_n.mp4?"
                 type="video/mp4"
               />
               Your browser does not support the video tag.
@@ -134,7 +134,25 @@ export default function Example() {
             <br></br>
             <a
               class="bg-green-500 text-white py-2 px-4 mt-4 rounded hover:bg-green-600 transition"
-              href="https://cdn.discordapp.com/attachments/1076500882813898785/1166301547244814396/Gimana_pendapat_Anda_DISKON_BELANJA_50_CEK_STORY_YAA_Follow_langsingonlineDIET_SEHAT_BARENG_DOKTERFo..._dr.fatmaselisriFollow_dr.fatmaselisrisholat_ibadah_lucu_viral_humor_dietmenyenangkan_dietmulaisekarang_dietse.mp4?ex=6549fdf5&is=653788f5&hm=0b65d79eedb37f7864cf049e48fdf979b86b9991dc3d059807243d7acd349092&"
+              href="https://cdn.discordapp.com/attachments/1076500882813898785/1156934417630113842/381171569_979544316664263_6248140325866608576_n.mp4?ex=654cd423&is=653a5f23&hm=9425582bcb02ee114be2bea745f63eb79f88d2e8e602214dfa4bd348b04c82f9&"
+            >
+              Download
+            </a>
+          </div>
+
+          <div class="video">
+            <h1 class="text-2xl font-semibold mb-4">Judul</h1>
+            <video controls width="420" height="240">
+              <source
+                src="https://cdn.discordapp.com/attachments/1076500882813898785/1151765639577481266/378086670_1047524019567496_5171415358081207793_n.mp4?"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+            <br></br>
+            <a
+              class="bg-green-500 text-white py-2 px-4 mt-4 rounded hover:bg-green-600 transition"
+              href="https://cdn.discordapp.com/attachments/1076500882813898785/1151765639577481266/378086670_1047524019567496_5171415358081207793_n.mp4?ex=654c7b57&is=653a0657&hm=dad714f2ee397839d18a297e3dcda89fb8a4b4f3aa6dda4e391b193a59e6cd22&"
             >
               Download
             </a>

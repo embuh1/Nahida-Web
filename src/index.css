@@ -39,6 +39,13 @@ code {
   background-position: center; /* Adjust background position as needed */
   background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
 }
+.background-image5 {
+  background-image: url('https://media.discordapp.net/attachments/1091296534370471997/1167377054149394492/illust_107073598_20231027_150822.png?ex=654de79a&is=653b729a&hm=da055fbce800724e3f9fc5679446b946b1090fdee32b962c130cab14b93bb15e&=&width=986&height=616'); /* Specify the URL of your background image */
+  background-size: cover; /* Adjust background size as needed */
+  background-position: center; /* Adjust background position as needed */
+  background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
+}
+
 .videos-container {
   display: flex;
   flex-direction: row;
@@ -59,4 +66,13 @@ code {
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
+}
+
+.video2 {
+  margin: 50px;
+  background: #e6f7ff;
+  padding: 50px;
+  border: 1px solid #00e60c;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
