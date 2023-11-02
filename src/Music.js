@@ -32,6 +32,7 @@ export default function Example() {
       <Navbar />
       <div class="background-image4 min-h-screen flex items-center justify-center">
         <div class="videos-container grid grid-cols-3 gap-3 items-center justify-center">
+
           <div class="video">
             <h1 class="text-2xl font-semibold mb-4">Contoh Audio Player</h1>
             <p class="text-gray-600">
@@ -51,6 +52,27 @@ export default function Example() {
               Download
             </a>
           </div>
+
+          <div class="video">
+            <h1 class="text-2xl font-semibold mb-4">eluveitieo - Memento</h1>
+            <p class="text-gray-600">
+              <audio controls>
+                <source
+                  src="https://cdn.discordapp.com/attachments/1169655452435492926/1169655524262940692/Memento.mp3?"
+                  type="audio/mpeg"
+                />
+                Your browser does not support the audio element.
+              </audio>
+            </p>
+            <br></br>
+            <a
+              class="bg-green-500 text-white py-2 px-4 mt-4 rounded hover:bg-green-600 transition"
+              href="https://cdn.discordapp.com/attachments/1169655452435492926/1169655524262940692/Memento.mp3?ex=65563198&is=6543bc98&hm=5eb8d1c435f9232d46d538cc122f4045d1cf155127cc0252603b4695e3e14040&"
+            >
+              Download
+            </a>
+          </div>
+
         </div>
       </div>
       <div className="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6">
