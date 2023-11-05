@@ -11,6 +11,7 @@ const Navbar = lazy(() => import('./Navbar'));
 const Music = lazy(() => import('./Music'));
 const Signin = lazy(() => import('./Sign-In'));
 const Setting = lazy(() => import('./setting'));
+const Profile = lazy(() => import('./profile'));
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/Music' element={<Music />} />
           <Route path='/Sign-In' element={<Signin />} />
           <Route path='/setting' element={<Setting />} />
+          <Route path='/profile' element={<Profile />} />
         </Routes>
       </Suspense>
     </Router>

@@ -126,13 +126,23 @@ export default function Example() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="https://github.com/embuh1"
+                            href="/profile"
                             className={classNames(
                               active ? "bg-gray-100" : "",
                               "block px-4 py-2 text-sm text-gray-700"
                             )}
                           >
                             Your Profile
+                          </a>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <a
+                            href="#"
+                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                          >
+                            Settings
                           </a>
                         )}
                       </Menu.Item>

@@ -47,7 +47,26 @@ export default function Example() {
               class="bg-green-500 text-white py-2 px-4 mt-4 rounded hover:bg-green-600 transition"
               href="https://media.discordapp.net/attachments/1091296534370471997/1167377063301353502/illust_111431370_20231027_151439.jpg?ex=654de79c&is=653b729c&hm=7d595ef3ec58069cc48c36a0abbe2074f4d03df494dcb28bc0e42ab1a76f8072&=&width=312&height=312"
             >
-              Saus
+              Download
+            </a>
+          </div>
+
+          <div class="video">
+            <h1 class="text-2xl font-semibold mb-4">Nahida in Wonderland</h1>
+            <p class="text-gray-600">
+              <image controls>
+                <img
+                  src="https://media.discordapp.net/attachments/1091296534370471997/1170578061499039744/illust_112953485_20231105_111708.jpg?ex=65598cc6&is=654717c6&hm=ad047fa922e21bcc10ba6edfcb489c8dcb79fb9c85ada56e54d28f5297e69e74&=&width=470&height=626"
+                  type="image/jpg"
+                />
+              </image>
+            </p>
+            <br></br>
+            <a
+              class="bg-green-500 text-white py-2 px-4 mt-4 rounded hover:bg-green-600 transition"
+              href="https://media.discordapp.net/attachments/1091296534370471997/1170578061499039744/illust_112953485_20231105_111708.jpg?ex=65598cc6&is=654717c6&hm=ad047fa922e21bcc10ba6edfcb489c8dcb79fb9c85ada56e54d28f5297e69e74&=&width=470&height=626"
+            >
+              Download
             </a>
           </div>
         </div>

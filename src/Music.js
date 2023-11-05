@@ -32,13 +32,12 @@ export default function Example() {
       <Navbar />
       <div class="background-image4 min-h-screen flex items-center justify-center">
         <div class="videos-container grid grid-cols-3 gap-3 items-center justify-center">
-
           <div class="video">
-            <h1 class="text-2xl font-semibold mb-4">Contoh Audio Player</h1>
+            <h1 class="text-2xl font-semibold mb-4">Aimer - Brave Shine</h1>
             <p class="text-gray-600">
               <audio controls>
                 <source
-                  src="https://cdn.discordapp.com/attachments/1076500882813898785/1168556659455578162/maju.mp3?"
+                  src="https://cdn.discordapp.com/attachments/1169655452435492926/1170600958447853598/Aimer_-_Brave_Shine.mp3?ex=6559a219&is=65472d19&hm=d0ae54f0b182eaed77952e28e91041bc16de05d067911c50af27ca9aead464c2&"
                   type="audio/mpeg"
                 />
                 Your browser does not support the audio element.
@@ -47,18 +46,20 @@ export default function Example() {
             <br></br>
             <a
               class="bg-green-500 text-white py-2 px-4 mt-4 rounded hover:bg-green-600 transition"
-              href="https://cdn.discordapp.com/attachments/1076500882813898785/1168556659455578162/maju.mp3?"
+              href="https://cdn.discordapp.com/attachments/1169655452435492926/1170600958447853598/Aimer_-_Brave_Shine.mp3?ex=6559a219&is=65472d19&hm=d0ae54f0b182eaed77952e28e91041bc16de05d067911c50af27ca9aead464c2&"
             >
               Download
             </a>
           </div>
 
           <div class="video">
-            <h1 class="text-2xl font-semibold mb-4">eluveitieo - Memento</h1>
+            <h1 class="text-2xl font-semibold mb-4">
+              Ghost - Marry On A Cross
+            </h1>
             <p class="text-gray-600">
               <audio controls>
                 <source
-                  src="https://cdn.discordapp.com/attachments/1169655452435492926/1169655524262940692/Memento.mp3?"
+                  src="https://cdn.discordapp.com/attachments/1169655452435492926/1170595584940445826/Ghost_-_Mary_On_A_Cross.mp3?ex=65599d18&is=65472818&hm=a3858aefdfa8e2cd4d5ff0601e9f253500b3c83504967559e4f84b481a0284ea&"
                   type="audio/mpeg"
                 />
                 Your browser does not support the audio element.
@@ -67,13 +68,37 @@ export default function Example() {
             <br></br>
             <a
               class="bg-green-500 text-white py-2 px-4 mt-4 rounded hover:bg-green-600 transition"
-              href="https://cdn.discordapp.com/attachments/1169655452435492926/1169655524262940692/Memento.mp3?ex=65563198&is=6543bc98&hm=5eb8d1c435f9232d46d538cc122f4045d1cf155127cc0252603b4695e3e14040&"
+              href="https://cdn.discordapp.com/attachments/1169655452435492926/1170595584940445826/Ghost_-_Mary_On_A_Cross.mp3?ex=65599d18&is=65472818&hm=a3858aefdfa8e2cd4d5ff0601e9f253500b3c83504967559e4f84b481a0284ea&"
             >
               Download
             </a>
           </div>
 
+          <div class="video">
+            <h1 class="text-2xl font-semibold mb-4">
+              I Really Want to Stay at Your House
+            </h1>
+            <p class="text-gray-600">
+              <audio controls>
+                <source
+                  src="https://cdn.discordapp.com/attachments/1169655452435492926/1170600397669417022/Cyberpunk_2077_Radio_Vol._2_Original_Soundtrack_CD_1_TRAC.mp3?ex=6559a193&is=65472c93&hm=58dda2d60ca15018fe3f9eea373cf72332d7931af357202b74aab58873d2fc6d&"
+                  type="audio/mpeg"
+                />
+                Your browser does not support the audio element.
+              </audio>
+            </p>
+            <br></br>
+            <a
+              class="bg-green-500 text-white py-2 px-4 mt-4 rounded hover:bg-green-600 transition"
+              href="https://cdn.discordapp.com/attachments/1169655452435492926/1170600397669417022/Cyberpunk_2077_Radio_Vol._2_Original_Soundtrack_CD_1_TRAC.mp3?ex=6559a193&is=65472c93&hm=58dda2d60ca15018fe3f9eea373cf72332d7931af357202b74aab58873d2fc6d&"
+            >
+              Download
+            </a>
+          </div>
         </div>
+
+        <div></div>
+
       </div>
       <div className="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6">
         <div className="flex flex-1 justify-between sm:hidden">
