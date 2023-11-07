@@ -94,22 +94,44 @@ export default function Example() {
           <div class="pt-6 mx-6 mt-6 text-center border-t border-gray-200 dark:border-gray-700/50">
             <div class="flex flex-wrap justify-center">
               <div class="w-full px-6">
-                <p class="mb-4 font-light leading-relaxed text-gray-600 dark:text-gray-400">
+                <p class="mb-4 font-light leading-relaxed text-blue-600 dark:text-blue-400">
                   JALANI HIDUP DENGAN KAKI !!!
                 </p>
+                <div class="flex">
+                  <img
+                    src="https://media.discordapp.net/attachments/1091296534370471997/1167311280848257084/-Nahida-Roll-n-Rock-PUBG-Victo-unscreen.gif?"
+                    alt="Nahida"
+                    width={100}
+                    height={100}
+                  />
+                  <img
+                    src="https://media.discordapp.net/attachments/1091296534370471997/1167311280848257084/-Nahida-Roll-n-Rock-PUBG-Victo-unscreen.gif?"
+                    alt="Nahida"
+                    width={100}
+                    height={100}
+                  />
+                  <img
+                    src="https://media.discordapp.net/attachments/1091296534370471997/1167311280848257084/-Nahida-Roll-n-Rock-PUBG-Victo-unscreen.gif?"
+                    alt="Nahida"
+                    width={100}
+                    height={100}
+                  />
+                </div>
               </div>
             </div>
           </div>
-          <div class="flex justify-center pt-8 pb-0 lg:pt-4">
-            <p class="text-gray-600">
-              <audio controls>
-                <source
-                  src="https://cdn.discordapp.com/attachments/1169655452435492926/1169655524262940692/Memento.mp3?"
-                  type="audio/mpeg"
-                />
-                Your browser does not support the audio element.
-              </audio>
-            </p>
+          <div class="pt-6 mx-6 mt-6 text-center border-t border-gray-200 dark:border-gray-700/50">
+            <div class="flex justify-center pt-8 pb-0 lg:pt-4">
+              <p class="text-gray-600">
+                <audio controls>
+                  <source
+                    src="https://cdn.discordapp.com/attachments/1169655452435492926/1169655524262940692/Memento.mp3?"
+                    type="audio/mpeg"
+                  />
+                  Your browser does not support the audio element.
+                </audio>
+              </p>
+            </div>
           </div>
           <div class="relative h-6 overflow-hidden translate-y-6 rounded-b-xl">
             <div class="absolute flex -space-x-12 rounded-b-2xl">

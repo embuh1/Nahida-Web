@@ -16,7 +16,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-green-950">
+    <Disclosure as="nav" className="bg-gradient-to-r from-green-900 to-yellow-800">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -52,7 +52,7 @@ export default function Example() {
                         className={classNames(
                           item.current
                             ? "bg-green-700 text-lime-400 hover:text-white"
-                            : "text-green-600 hover:text-white",
+                            : "text-green-500 hover:text-white",
                           "rounded-md px-3 py-2 text-sm font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}

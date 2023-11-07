@@ -36,9 +36,11 @@ export default function Example() {
             <h1 class="text-2xl font-semibold mb-4">Nahida Middle Finger</h1>
             <p class="text-gray-600">
               <image controls>
-                <img
+                <img class='video'
                   src="https://media.discordapp.net/attachments/1091296534370471997/1167377063301353502/illust_111431370_20231027_151439.jpg?"
                   type="image/jpg"
+                  height={250}
+                  width={250}
                 />
               </image>
             </p>
@@ -55,16 +57,39 @@ export default function Example() {
             <h1 class="text-2xl font-semibold mb-4">Nahida in Wonderland</h1>
             <p class="text-gray-600">
               <image controls>
-                <img
-                  src="https://media.discordapp.net/attachments/1091296534370471997/1170578061499039744/illust_112953485_20231105_111708.jpg?ex=65598cc6&is=654717c6&hm=ad047fa922e21bcc10ba6edfcb489c8dcb79fb9c85ada56e54d28f5297e69e74&=&width=470&height=626"
-                  type="image/jpg"
-                />
+              <img class='video'
+                src="https://media.discordapp.net/attachments/1091296534370471997/1170578061499039744/illust_112953485_20231105_111708.jpg?"
+                type="image/jpg"
+                height={200}
+                width={200}
+              />
               </image>
             </p>
             <br></br>
             <a
               class="bg-green-500 text-white py-2 px-4 mt-4 rounded hover:bg-green-600 transition"
               href="https://media.discordapp.net/attachments/1091296534370471997/1170578061499039744/illust_112953485_20231105_111708.jpg?ex=65598cc6&is=654717c6&hm=ad047fa922e21bcc10ba6edfcb489c8dcb79fb9c85ada56e54d28f5297e69e74&=&width=470&height=626"
+            >
+              Download
+            </a>
+          </div>
+
+          <div class="video">
+            <h1 class="text-2xl font-semibold mb-4">Nahida in Wonderland</h1>
+            <p class="text-gray-600">
+              <image controls>
+              <img class='video'
+                src="https://media.discordapp.net/attachments/1091296534370471997/1170578029693649007/illust_113018699_20231105_111833.png?"
+                type="image/jpg"
+                height={190}
+                width={190}
+              />
+              </image>
+            </p>
+            <br></br>
+            <a
+              class="bg-green-500 text-white py-2 px-4 mt-4 rounded hover:bg-green-600 transition"
+              href="https://media.discordapp.net/attachments/1091296534370471997/1170578029693649007/illust_113018699_20231105_111833.png?ex=65598cbe&is=654717be&hm=c2000ec59075c7e0e03d86bb070fd03287ff5dfb861bc36b19c3a0d92600e344&=&width=442&height=627"
             >
               Download
             </a>
