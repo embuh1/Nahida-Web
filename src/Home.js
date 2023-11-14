@@ -31,8 +31,7 @@ export default function Example() {
               Selamat Datang di Website Nahida
             </h2>
             <p className="mt-6 text-lg leading-8 text-blue-300">
-              Features :
-              <br></br>- Pictures
+              Features :<br></br>- Pictures
               <br></br>- video
               <br></br>- Audio (Masih belum jadi)
               <br></br>- dll.
@@ -45,12 +44,12 @@ export default function Example() {
                 Learn More <span aria-hidden="true">→</span>
               </a>
               <a href="https://github.com/embuh1">
-              <img
-                src="https://media.discordapp.net/attachments/1091296534370471997/1167311280848257084/-Nahida-Roll-n-Rock-PUBG-Victo-unscreen.gif?"
-                alt="Nahida"
-                width={150}
-                height={150}
-              />
+                <img
+                  src="https://media.discordapp.net/attachments/1091296534370471997/1167311280848257084/-Nahida-Roll-n-Rock-PUBG-Victo-unscreen.gif?"
+                  alt="Nahida"
+                  width={150}
+                  height={150}
+                />
               </a>
             </div>
           </div>
@@ -65,19 +64,19 @@ export default function Example() {
                   Your browser does not support the video tag.
                 </video>
               </div>
-              <h2 className="text-1xl font-Sans font-semibold bg-gradient-to-r from-orange-500 to-yellow-200 bg-clip-text text-transparent sm:text-2xl items-end">
-                Powered By :
-              </h2>
-              <a href="https://discord.gg/VNRHrcn8">
-                <img
-                  src="https://media.discordapp.net/attachments/1076500882813898784/1167071087448838206/image0.png?"
-                  alt="Nightcord"
-                  href="https://discord.gg/VNRHrcn8"
-                  width={700}
-                  height={500}
-                />
-              </a>
             </div>
+            <h2 className="text-1xl font-Sans font-semibold bg-gradient-to-r from-orange-500 to-yellow-200 bg-clip-text text-transparent sm:text-2xl items-end">
+              Powered By :
+            </h2>
+            <a href="https://discord.gg/VNRHrcn8">
+              <img
+                src="https://media.discordapp.net/attachments/1076500882813898784/1167071087448838206/image0.png?"
+                alt="Nightcord"
+                href="https://discord.gg/VNRHrcn8"
+                width={700}
+                height={500}
+              />
+            </a>
           </div>
         </div>
       </div>
