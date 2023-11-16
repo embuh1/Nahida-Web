@@ -1,8 +1,13 @@
 import React from "react";
-
 export default function Example() {
   return (
-    <div class="flex items-center justify-center min-h-screen background-image6">
+    <div class="flex items-center justify-center min-h-screen">
+      <video autoPlay loop muted id="video-background">
+        <source
+          src="https://cdn.discordapp.com/attachments/1169655452435492926/1174735917303463958/112132654.mp4?ex=6568ad14&is=65563814&hm=a03f75e5d44949ecc8f552d9c5719d81fbaebd632a8b871cdd1f89167f283331&"
+          type="video/mp4"
+        />
+      </video>
       <div class="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-6 break-words shadow-2xl bg-gradient-to-br from-green-600 to-lime-900 md:max-w-sm rounded-xl">
         <div class="pb-6">
           <div class="flex flex-wrap justify-center">
@@ -33,7 +38,7 @@ export default function Example() {
                     rel="noopener"
                     aria-label="Github"
                     target="_blank"
-                    style={{ paddingRight: '18px' }}
+                    style={{ paddingRight: "18px" }}
                   >
                     <svg
                       class="w-6 h-6 overflow-visible fill-current"
@@ -51,7 +56,7 @@ export default function Example() {
                     rel="noopener"
                     aria-label="Nightcord"
                     target="_blank"
-                    style={{ paddingRight: '18px' }}
+                    style={{ paddingRight: "18px" }}
                   >
                     <svg
                       class="w-6 h-6 overflow-visible fill-current"
@@ -74,7 +79,7 @@ export default function Example() {
                     rel="noopener"
                     aria-label="Steam"
                     target="_blank"
-                    style={{ paddingRight: '18px' }}
+                    style={{ paddingRight: "18px" }}
                   >
                     <svg
                       class="w-6 h-6 overflow-visible fill-current"

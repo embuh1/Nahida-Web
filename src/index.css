@@ -46,10 +46,23 @@ code {
   background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
 }
 .background-image6 {
-  background-image: url('https://media.discordapp.net/attachments/1091296534370471997/1170578202972926072/illust_108033159_20231105_111549.png?ex=65598ce7&is=654717e7&hm=eeb8e801180bdd3d9bf4d68b8f5dc1cbc497d1811a9f14afe8a8ef9ae135312d&=&width=886&height=626'); /* Specify the URL of your background image */
+  background-image: url('https://media.discordapp.net/attachments/1091296534370471997/1174569750114881617/113381830_p0_master1200.jpg?ex=65681252&is=65559d52&hm=07d403ba600a26d95bdec64475a512f50e3f068bbcf019800121fedcee365af7&=&width=488&height=627');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.background-image7 {
+  background-image: url('https://media.discordapp.net/attachments/1091296534370471997/1174570915762286662/112903533_p0.png?ex=65681368&is=65559e68&hm=5811985618f8ab03e7d5a63f1496407895472264bec04fc7fb7bee2e2c3aba27&=&width=395&height=627'); /* Specify the URL of your background image */
   background-size: cover; /* Adjust background size as needed */
   background-position: center; /* Adjust background position as needed */
   background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
+}
+
+#video-background {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
 }
 
 .videos-container {
@@ -57,6 +70,15 @@ code {
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
+}
+
+.bg {
+  margin: 10px;
+  background: #e6f7ff;
+  padding: 10px;
+  border: 1px solid #00e60c;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 .video {
@@ -83,3 +105,28 @@ code {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   
 }
+
+.background-video {
+  position: relative;
+  overflow: hidden;
+}
+
+#myBackgroundVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flex {
+  position: relative;
+  z-index: 1;
+}
+
+.video-background {
+  z-index: 0; /* Set a lower z-index for the video so that it stays behind the content */
+}
+
+/* Rest of your existing styles */

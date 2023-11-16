@@ -16,8 +16,8 @@ import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 
 export default function Example() {
   return (
-    <div class="flex items-center justify-center min-h-screen">
-      <div class="relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-6 break-words">
+    <div class="video flex items-center justify-center min-h-screen">
+      <div class="video relative w-full group max-w-md min-w-0 mx-auto mt-6 mb-6 break-words">
         <form>
           <div className="space-y-12">
             <div className="border-b border-gray-900/10 pb-12">
