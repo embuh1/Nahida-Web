@@ -33,7 +33,7 @@ export default function Example() {
             <p className="mt-6 text-lg leading-8 text-blue-300">
               Features :<br></br>- Pictures
               <br></br>- video
-              <br></br>- Audio
+              <br></br>- Random 4C Manga
               <br></br>- dll.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">

@@ -1,6 +1,7 @@
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/20/solid";
-import React from "react";
 import Navbar from "./Navbar";
+import "./product.css"
+
 
 const items = [
   {
@@ -27,75 +28,26 @@ const items = [
 ];
 
 export default function Example() {
+
   return (
     <div>
       <Navbar />
-      <div class="background-image3 min-h-screen flex items-center justify-center">
-        <div class="videos-container grid grid-cols-5 gap-5 items-center justify-center">
-          <div class="video">
-            <h1 class="text-2xl font-semibold mb-4">Nahida Middle Finger</h1>
-            <p class="text-gray-600">
-              <image controls>
-                <img class='video'
-                  src="https://media.discordapp.net/attachments/1091296534370471997/1167377063301353502/illust_111431370_20231027_151439.jpg?"
-                  type="image/jpg"
-                  height={250}
-                  width={250}
-                />
-              </image>
-            </p>
-            <br></br>
-            <a
-              class="bg-green-500 text-white py-2 px-4 mt-4 rounded hover:bg-green-600 transition"
-              href="https://media.discordapp.net/attachments/1091296534370471997/1167377063301353502/illust_111431370_20231027_151439.jpg?ex=654de79c&is=653b729c&hm=7d595ef3ec58069cc48c36a0abbe2074f4d03df494dcb28bc0e42ab1a76f8072&=&width=312&height=312"
-            >
-              Download
-            </a>
-          </div>
+      <div className="background-image2 min-h-screen items-center justify-center">
 
-          <div class="video">
-            <h1 class="text-2xl font-semibold mb-4">Nahida in Wonderland</h1>
-            <p class="text-gray-600">
-              <image controls>
-              <img class='video'
-                src="https://media.discordapp.net/attachments/1091296534370471997/1170578061499039744/illust_112953485_20231105_111708.jpg?"
-                type="image/jpg"
-                height={200}
-                width={200}
-              />
-              </image>
-            </p>
-            <br></br>
-            <a
-              class="bg-green-500 text-white py-2 px-4 mt-4 rounded hover:bg-green-600 transition"
-              href="https://media.discordapp.net/attachments/1091296534370471997/1170578061499039744/illust_112953485_20231105_111708.jpg?ex=65598cc6&is=654717c6&hm=ad047fa922e21bcc10ba6edfcb489c8dcb79fb9c85ada56e54d28f5297e69e74&=&width=470&height=626"
-            >
-              Download
-            </a>
-          </div>
-
-          <div class="video">
-            <h1 class="text-2xl font-semibold mb-4">Nahida in Wonderland</h1>
-            <p class="text-gray-600">
-              <image controls>
-              <img class='video'
-                src="https://media.discordapp.net/attachments/1091296534370471997/1170578029693649007/illust_113018699_20231105_111833.png?"
-                type="image/jpg"
-                height={190}
-                width={190}
-              />
-              </image>
-            </p>
-            <br></br>
-            <a
-              class="bg-green-500 text-white py-2 px-4 mt-4 rounded hover:bg-green-600 transition"
-              href="https://media.discordapp.net/attachments/1091296534370471997/1170578029693649007/illust_113018699_20231105_111833.png?ex=65598cbe&is=654717be&hm=c2000ec59075c7e0e03d86bb070fd03287ff5dfb861bc36b19c3a0d92600e344&=&width=442&height=627"
-            >
-              Download
-            </a>
-          </div>
-        </div>
+      <div className="box">
+      <div className="group">
+        <img className="rectangle" alt="Rectangle" src="https://media.discordapp.net/attachments/1169655452435492926/1194985181958914048/FB_IMG_1685842288965.jpg?ex=65b257ad&is=659fe2ad&hm=9bebfa0ed34c30dd526c70ddd6032cdfc6b8218a1e440046812864ec17fe8cca&=&format=webp&width=631&height=611" />
+        <img className="img" alt="Rectangle" src="https://media.discordapp.net/attachments/1169655452435492926/1194985668758220840/FB_IMG_1676182851988.jpg?ex=65b25821&is=659fe321&hm=8cfdaefc0cc0fa0dcc57376d98e03ddb79a542e019ad1943cf62ad8bf36b30c0&=&format=webp&width=407&height=611" />
+        <img className="rectangle-2" alt="Rectangle" src="https://media.discordapp.net/attachments/1169655452435492926/1194985878049796158/FB_IMG_1690634856463.jpg?ex=65b25853&is=659fe353&hm=c547d616a48fa70d6757e3ac5803a7c0d80c3b862ddf26d5fa9d85f0f001c956&=&format=webp&width=460&height=611" />
+        <img className="rectangle-3" alt="Rectangle" src="https://cdn.discordapp.com/attachments/1169655452435492926/1194985298447310919/STK-20230422-WA0057.webp?ex=65b257c8&is=659fe2c8&hm=0172cb99c0bf4b8c76f75426a1daf07dc89a89aaa01c05583cad43bb132f0d59&" />
+        <img className="rectangle-4" alt="Rectangle" src="https://media.discordapp.net/attachments/1169655452435492926/1194985487421685812/FB_IMG_1690354935604.jpg?ex=65b257f5&is=659fe2f5&hm=94d8db6a474f076454b67313cd463f34d0efee034b8bacbd284130ad12ac8736&=&format=webp&width=353&height=611" />
+        <img className="rectangle-5" alt="Rectangle" src="https://media.discordapp.net/attachments/1169655452435492926/1194985583169245234/illust_109224888_20230731_155515.png?ex=65b2580c&is=659fe30c&hm=b3f88c7bdaf77b12d005462c5f39acb894c4af27c8fd3ac78dde574d0630efa5&=&format=webp&quality=lossless&width=1091&height=611" />
+        <img className="ellipse" alt="Ellipse" src="https://media.discordapp.net/attachments/1169655452435492926/1194985781257830541/Picsart_23-08-08_07-59-00-965.png?ex=65b2583c&is=659fe33c&hm=0658c55a4adf5020c2477a6f888ab65e29f47b6ba34357bda7b0f7371162363b&=&format=webp&quality=lossless&width=608&height=611" />
       </div>
+    </div>
+      
+      </div>
+
       <div className="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6">
         <div className="flex flex-1 justify-between sm:hidden">
           <a

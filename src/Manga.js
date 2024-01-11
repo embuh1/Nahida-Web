@@ -1,6 +1,8 @@
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/20/solid";
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import Navbar from "./Navbar";
+import "./Manga.css";
+
 
 const items = [
   {
@@ -26,80 +28,77 @@ const items = [
   },
 ];
 
+/*<div className="box">
+      <div className="group">
+        <div className="overlap">
+        {currentImage && (
+          <img className="rectangle" alt={currentImage.alt_description} src={currentImage.urls.regular} />
+        )}
+          <div className="text-wrapper"></div>
+          <button onClick={handleImageChange}>
+          <div className="overlap-group-wrapper">
+            <div className="overlap-group">
+            </div>
+          </div>
+          </button>
+        </div>
+      </div>
+    </div>*/
+
 export default function Example() {
+  
+  const [images, setImages] = useState([]);
+  const [currentImage, setCurrentImage] = useState(null);
+
+  useEffect(() => {
+    fetchRandomImages();
+  }, []);
+
+  const fetchRandomImages = async () => {
+    try {
+      // For testing purposes, you can use placeholder image URLs
+      const placeholderImages = [
+        { id: 1, urls: { regular: 'https://media.discordapp.net/attachments/1091296534370471997/1194629642859073606/blue.archive_sensei-10-01-2024-0032.jpg?ex=65b10c8e&is=659e978e&hm=455638cd1932c095243d085701a3ca1b9690558cab6739a9131469e3300c1da9&=&format=webp&width=611&height=611' }, alt_description: 'Shiroko 1' },
+        { id: 2, urls: { regular: 'https://media.discordapp.net/attachments/1091296534370471997/1194629643542741072/blue.archive_sensei-10-01-2024-0036.jpg?ex=65b10c8e&is=659e978e&hm=47cd33e87eca2a981cbd86dafdab540b39e156293d6555eb92a1e6d90f4ab156&=&format=webp&width=611&height=611' }, alt_description: 'Shiroko 2' },
+        { id: 3, urls: { regular: 'https://media.discordapp.net/attachments/1091296534370471997/1194629643253321768/blue.archive_sensei-10-01-2024-0035.jpg?ex=65b10c8e&is=659e978e&hm=6400ce566092db2067d498a5e734bb7db7bbd80c91e8a39c0cd782c953d3e57f&=&format=webp&width=611&height=611' }, alt_description: 'Shiroko 3' },
+        { id: 4, urls: { regular: 'https://media.discordapp.net/attachments/1091296534370471997/1194629460339736667/blue.archive_sensei-10-01-2024-0022.jpg?ex=65b10c62&is=659e9762&hm=f31cca63e43bc14d71ebe5505289879f374524407d917772c9ca04eb9a2c56a9&=&format=webp&width=611&height=611' }, alt_description: 'Shiroko 4' },
+        { id: 5, urls: { regular: 'https://media.discordapp.net/attachments/1091296534370471997/1194629356060950548/blue.archive_sensei-10-01-2024-0019.jpg?ex=65b10c49&is=659e9749&hm=c223ce11c68ddb13641cd301f7352bd178fb2d1bc96027d865c6dfb5f0fa1488&=&format=webp&width=611&height=611' }, alt_description: 'Shiroko 5' },
+        { id: 6, urls: { regular: 'https://media.discordapp.net/attachments/1091296534370471997/1194629328386928640/blue.archive_sensei-10-01-2024-0018.jpg?ex=65b10c43&is=659e9743&hm=47fba720ac2f99630e40731631c8191f5c9aee5d77806b910bafac639710c229&=&format=webp&width=611&height=611' }, alt_description: 'Shiroko Bonus' },
+        // Add more placeholder images as needed
+      ];
+  
+      setImages(placeholderImages);
+    } catch (error) {
+      console.error('Error fetching images:', error);
+    }
+  };
+
+  const handleImageChange = () => {
+    const newIndex = (images.indexOf(currentImage) + 1) % images.length;
+    setCurrentImage(images[newIndex]);
+  };
+
   return (
     <div>
       <Navbar />
-      <div class="background-image4 min-h-screen flex items-center justify-center">
-        <div class="videos-container grid grid-cols-3 gap-3 items-center justify-center">
-          <div class="video">
-            <h1 class="text-2xl font-semibold mb-4">Aimer - Brave Shine</h1>
-            <p class="text-gray-600">
-              <audio controls>
-                <source
-                  src="https://cdn.discordapp.com/attachments/1169655452435492926/1170600958447853598/Aimer_-_Brave_Shine.mp3?ex=6559a219&is=65472d19&hm=d0ae54f0b182eaed77952e28e91041bc16de05d067911c50af27ca9aead464c2&"
-                  type="audio/mpeg"
-                />
-                Your browser does not support the audio element.
-              </audio>
-            </p>
-            <br></br>
-            <a
-              class="bg-green-500 text-white py-2 px-4 mt-4 rounded hover:bg-green-600 transition"
-              href="https://cdn.discordapp.com/attachments/1169655452435492926/1170600958447853598/Aimer_-_Brave_Shine.mp3?ex=6559a219&is=65472d19&hm=d0ae54f0b182eaed77952e28e91041bc16de05d067911c50af27ca9aead464c2&"
-            >
-              Download
-            </a>
-          </div>
+      <div className="background-image2 min-h-screen items-center justify-center">
 
-          <div class="video">
-            <h1 class="text-2xl font-semibold mb-4">
-              Ghost - Marry On A Cross
-            </h1>
-            <p class="text-gray-600">
-              <audio controls>
-                <source
-                  src="https://cdn.discordapp.com/attachments/1169655452435492926/1170595584940445826/Ghost_-_Mary_On_A_Cross.mp3?ex=65599d18&is=65472818&hm=a3858aefdfa8e2cd4d5ff0601e9f253500b3c83504967559e4f84b481a0284ea&"
-                  type="audio/mpeg"
-                />
-                Your browser does not support the audio element.
-              </audio>
-            </p>
-            <br></br>
-            <a
-              class="bg-green-500 text-white py-2 px-4 mt-4 rounded hover:bg-green-600 transition"
-              href="https://cdn.discordapp.com/attachments/1169655452435492926/1170595584940445826/Ghost_-_Mary_On_A_Cross.mp3?ex=65599d18&is=65472818&hm=a3858aefdfa8e2cd4d5ff0601e9f253500b3c83504967559e4f84b481a0284ea&"
-            >
-              Download
-            </a>
-          </div>
-
-          <div class="video">
-            <h1 class="text-2xl font-semibold mb-4">
-              I Really Want to Stay at Your House
-            </h1>
-            <p class="text-gray-600">
-              <audio controls>
-                <source
-                  src="https://cdn.discordapp.com/attachments/1169655452435492926/1170600397669417022/Cyberpunk_2077_Radio_Vol._2_Original_Soundtrack_CD_1_TRAC.mp3?ex=6559a193&is=65472c93&hm=58dda2d60ca15018fe3f9eea373cf72332d7931af357202b74aab58873d2fc6d&"
-                  type="audio/mpeg"
-                />
-                Your browser does not support the audio element.
-              </audio>
-            </p>
-            <br></br>
-            <a
-              class="bg-green-500 text-white py-2 px-4 mt-4 rounded hover:bg-green-600 transition"
-              href="https://cdn.discordapp.com/attachments/1169655452435492926/1170600397669417022/Cyberpunk_2077_Radio_Vol._2_Original_Soundtrack_CD_1_TRAC.mp3?ex=6559a193&is=65472c93&hm=58dda2d60ca15018fe3f9eea373cf72332d7931af357202b74aab58873d2fc6d&"
-            >
-              Download
-            </a>
-          </div>
+      <div className="box">
+      <div className="group">
+        <div className="overlap">
+        {currentImage && (
+          <img className="rectangle" alt={currentImage.alt_description} src={currentImage.urls.regular} />
+          )}
+          <div className="text-wrapper">{/*currentImage.alt_description*/}</div>
+          <button className="button" onClick={handleImageChange}>
+            <div className="overlap-group"></div>
+          </button>
         </div>
-
-        <div></div>
-
       </div>
+    </div>
+      
+      </div>
+
       <div className="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6">
         <div className="flex flex-1 justify-between sm:hidden">
           <a

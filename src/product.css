@@ -1,0 +1,78 @@
+.box {
+    height: 701px;
+    position: relative;
+    width: 1215px;
+}
+
+.box .group {
+    height: 701px;
+    left: 10%;
+    position: relative;
+    top: 2%;
+    width: 1215px;
+}
+
+.box .rectangle {
+    height: 259px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    background-color: #e6f7ff80;
+    border-color: #00e60c;
+    top: 0;
+    width: 274px;
+}
+
+.box .img {
+    height: 702px;
+    left: 630px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 274px;
+}
+
+.box .rectangle-2 {
+    height: 378px;
+    left: 941px;
+    object-fit: cover;
+    position: absolute;
+    top: 323px;
+    width: 274px;
+}
+
+.box .rectangle-3 {
+    height: 110px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 323px;
+    width: 274px;
+}
+
+.box .rectangle-4 {
+    height: 441px;
+    left: 311px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 274px;
+}
+
+.box .rectangle-5 {
+    height: 233px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 469px;
+    width: 585px;
+}
+
+.box .ellipse {
+    height: 215px;
+    left: 968px;
+    object-fit: cover;
+    position: absolute;
+    top: 21px;
+    width: 219px;
+}

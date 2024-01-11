@@ -31,7 +31,7 @@ code {
   background-image: url('https://media.discordapp.net/attachments/1091296534370471997/1167376989951381534/illust_111550697_20231027_151623.png?'); /* Specify the URL of your background image */
   background-size: cover; /* Adjust background size as needed */
   background-position: center; /* Adjust background position as needed */
-  background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
+  background-repeat: no-repeat; /* Ensure the background image doesn't repeat */;
 }
 .background-image4 {
   background-image: url('https://media.discordapp.net/attachments/1091296534370471997/1167377026156605440/illust_106934558_20231027_151353.png?ex=654de793&is=653b7293&hm=405de0aa0766b41a2e170d95e68d8d8233dbcf9e895fb852739de2d789859f1e&=&width=883&height=588'); /* Specify the URL of your background image */
@@ -54,6 +54,13 @@ code {
 
 .background-image7 {
   background-image: url('https://media.discordapp.net/attachments/1091296534370471997/1174570915762286662/112903533_p0.png?ex=65681368&is=65559e68&hm=5811985618f8ab03e7d5a63f1496407895472264bec04fc7fb7bee2e2c3aba27&=&width=395&height=627'); /* Specify the URL of your background image */
+  background-size: cover; /* Adjust background size as needed */
+  background-position: center; /* Adjust background position as needed */
+  background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
+}
+
+.background-image8 {
+  background-image: url('https://media.discordapp.net/attachments/1091296534370471997/1189796360417968169/FB_IMG_1703732825431.jpg?ex=65a8b1b5&is=65963cb5&hm=b2a4aa12f87df53e9518e7b20955d13eb5569c531512a051e4718d947e2f13f0&=&format=webp&width=1110&height=500'); /* Specify the URL of your background image */
   background-size: cover; /* Adjust background size as needed */
   background-position: center; /* Adjust background position as needed */
   background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
@@ -129,4 +136,21 @@ code {
   z-index: 0; /* Set a lower z-index for the video so that it stays behind the content */
 }
 
+.border1 {
+  margin: 10px;
+  background: rgba(230, 247, 255, 0.5); /* Adjust the alpha value as needed */
+  padding: 10px;
+  border: 1px solid #00e60c;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.caption {
+  padding: 10px;
+  width: 250px;
+  text-decoration-thickness: auto;
+  vertical-align: baseline;
+  text-align: justify;
+  text-align: center;
+}
 /* Rest of your existing styles */
