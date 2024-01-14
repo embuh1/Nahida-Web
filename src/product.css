@@ -2,77 +2,337 @@
     height: 701px;
     position: relative;
     width: 1215px;
+    
 }
+  
 
 .box .group {
     height: 701px;
-    left: 10%;
+    left: 15%;
     position: relative;
     top: 2%;
     width: 1215px;
+    
 }
-
+  
 .box .rectangle {
     height: 259px;
     left: 0;
-    object-fit: cover;
+    object-fit: fill;
     position: absolute;
-    background-color: #e6f7ff80;
-    border-color: #00e60c;
     top: 0;
     width: 274px;
+
+    background-color: #e6f7ff80;
+    border: 1px solid;
+    border-color: #00e60c;
 }
 
-.box .img {
+.box .rectangle .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #007d06bb;
+}
+
+.box .rectangle .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.box .rectangle:hover .overlay {
+    opacity: 0.9;
+}
+
+.box .fbi {
     height: 702px;
     left: 630px;
     object-fit: cover;
     position: absolute;
     top: 0;
     width: 274px;
+
+    background-color: #e6f7ff80;
+    border: 1px solid;
+    border-color: #00e60c;
+}
+
+.fbi-img {
+    height: 700px;
+    width: 272px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.box .fbi .overlay-fbi {
+    height: 700px;
+    width: 272px;
+    position: absolute;
+    object-fit: cover;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #007d06bb;
+}
+
+.box .fbi .text-fbi {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.box .fbi:hover .overlay-fbi {
+  opacity: 0.9;
 }
 
 .box .rectangle-2 {
     height: 378px;
     left: 941px;
-    object-fit: cover;
+    object-fit: fill;
     position: absolute;
     top: 323px;
     width: 274px;
+
+    background-color: #e6f7ff80;
+    border: 1px solid;
+    border-color: #00e60c;
 }
 
-.box .rectangle-3 {
+.box .rectangle-2 .overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #007d06bb;
+}
+
+.box .rectangle-2 .text2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.box .rectangle-2:hover .overlay2 {
+    opacity: 0.9;
+}
+
+.box .seketewu {
     height: 110px;
     left: 0;
     object-fit: cover;
     position: absolute;
     top: 323px;
     width: 274px;
+    
+    background-color: #e6f7ff80;
+    border: 1px solid;
+    border-color: #00e60c;
+}
+
+.seketewu-img {
+    height: 108px;
+    width: 272px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.box .seketewu .overlay-seketewu {
+    height: 108px;
+    width: 272px;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #007d06bb;
+}
+
+.box .seketewu:hover .overlay-seketewu {
+    opacity: 0.9;
+}
+
+.box .seketewu .text-seketewu {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .box .rectangle-4 {
     height: 441px;
     left: 311px;
-    object-fit: cover;
+    object-fit: fill;
     position: absolute;
     top: 0;
     width: 274px;
+
+    background-color: #e6f7ff80;
+    border: 1px solid;
+    border-color: #00e60c;
 }
 
-.box .rectangle-5 {
+.kirara {
+    height: 439px;
+    width: 272px;
+    object-fit: fill;
+    position: absolute;
+}
+
+.box .rectangle-4 .overlay-kirara {
+    position: absolute;
+    height: 439px;
+    width: 272px;
+    object-fit: contain;
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #007d06bb;
+}
+
+.box .rectangle-4 .text-kirara {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.box .rectangle-4:hover .overlay-kirara {
+    opacity: 0.9;
+}
+
+.box .atmin {
     height: 233px;
     left: 0;
-    object-fit: cover;
+    object-fit: fill;
     position: absolute;
     top: 469px;
     width: 585px;
+
+    
+    background-color: #e6f7ff80;
+    border: 1px solid;
+    border-color: #00e60c;
+}
+
+.atmin-img {
+    height: 231px;
+    width: 583px;
+    object-fit: fill;
+    position: absolute;
+}
+
+.box .atmin .overlay-atmin {
+    height: 233px;
+    width: 585px;
+    object-fit: fill;
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #007d06bb;
+}
+
+.box .atmin .text-atmin {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.box .atmin:hover .overlay-atmin {
+    opacity: 0.9;
 }
 
 .box .ellipse {
     height: 215px;
     left: 968px;
-    object-fit: cover;
+    object-fit: contain;
     position: absolute;
     top: 21px;
-    width: 219px;
+    width: 214px;
+    border-radius: 100%;
+    
+    background-color: #e6f7ff80;
+    border: 1px solid;
+    border-color: #00e60c;
 }
+
+.megachan {
+    height: 213px;
+    width: 212px;
+    object-fit: contain;
+    position: absolute;
+    border-radius: 100%;
+    
+}
+
+.box .ellipse .overlay-megachan {
+    position: absolute;
+    height: 215px;
+    width: 214px;
+    object-fit: contain;
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #007d06bb;
+}
+
+.box .ellipse .text-megachan {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.box .ellipse:hover .overlay-megachan {
+    opacity: 0.9;
+}
+
