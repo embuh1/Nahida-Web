@@ -1,0 +1,93 @@
+.box {
+    height: 703px;
+    width: 855px;
+}
+
+.box .group {
+    height: 703px;
+    left: 40%;
+    position: relative;
+    top: 2%;
+    width: 861px;
+}
+
+.box .overlap-group {
+    height: 705px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 857px;
+}
+
+.box .gambar {
+    border: 1px solid;
+    border-color: #00e60c;
+    height: 435px;
+    left: 184px;
+    object-fit: fill;
+    position: absolute;
+    top: 134px;
+    width: 488px;
+}
+
+.box .text-wrapper {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 361px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 66px;
+    width: 135px;
+}
+
+.box .judul {
+    -webkit-text-stroke: 0.3px #00e60c;
+    color: #e6f7ff; 
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 185px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 590px;
+    width: 487px; 
+}
+
+.box .arthour {
+    -webkit-text-stroke: 1px #000000;
+    color: #ffffff; 
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 185px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 646px;
+    width: 487px; 
+}
+
+.box .kanan {
+    height: 140px;
+    left: 690px;
+    object-fit: cover;
+    position: absolute;
+    top: 282px;
+    width: 152px;
+}
+
+.box .kiri {
+    height: 140px;
+    left: 14px;
+    object-fit: cover;
+    position: absolute;
+    top: 282px;
+    width: 152px;
+}
