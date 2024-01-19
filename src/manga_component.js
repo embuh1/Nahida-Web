@@ -1,13 +1,13 @@
-import { useState } from 'react';
-import { sculptureList } from './manga_list.js';
+import React, { useState } from 'react';
+import { mangalist } from './manga_list.js';
 import './manga_component.css'
 
 export default function Manga1() {
   const [index, setIndex] = useState(0);
-
+  
   function handleNextClick() {
     // Check if index is at the end
-    if (index === sculptureList.length - 1) {
+    if (index === mangalist.length - 1) {
       // If at the end, wrap back to the beginning
       setIndex(0);
     } else {
@@ -20,22 +20,22 @@ export default function Manga1() {
     // Check if index is at the beginning
     if (index === 0) {
       // If at the beginning, wrap to the end
-      setIndex(sculptureList.length - 1);
+      setIndex(mangalist.length - 1);
     } else {
       // Otherwise, decrement the index
       setIndex(index - 1);
     }
   }
 
-  let sculpture = sculptureList[index];
+  let manga = mangalist[index];
   return (
     <div className="box">
       <div className="group">
         <div className="overlap-group">
-          <img className="gambar" alt="Gambar" src={sculpture.url} />
-          <div className="text-wrapper">({index + 1} of {sculptureList.length})</div>
-          <div className="judul">{sculpture.name}</div>
-          <div className="arthour">By {sculpture.artist}</div>
+          <img className="gambar" alt="Gambar" src={manga.url} />
+          <div className="text-wrapper">({index + 1} of {mangalist.length})</div>
+          <div className="judul">{manga.name}</div>
+          <div className="arthour">By {manga.artist}</div>
           <button onClick={handleNextClick}>
             <img className="kanan" alt="Kanan" src="https://media.discordapp.net/attachments/1169655452435492926/1192456704688930876/K.png?ex=65b25f59&is=659fea59&hm=97495c62840f874cb5532e1de310337c112a7e30110469d49dbdcb8982b641e4&=&format=webp&quality=lossless&width=613&height=613" />
           </button>
@@ -44,6 +44,6 @@ export default function Manga1() {
           </button>
         </div>
       </div>
-    </div>
+    </div> 
   );
 }

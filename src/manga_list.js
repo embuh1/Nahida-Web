@@ -1,4 +1,4 @@
-export const sculptureList = [{
+export const mangalist = [{
     name: 'Shiroko 1 : Pertemuan',
     artist: '???',
     url: 'https://media.discordapp.net/attachments/1091296534370471997/1194629642859073606/blue.archive_sensei-10-01-2024-0032.jpg?ex=65b10c8e&is=659e978e&hm=455638cd1932c095243d085701a3ca1b9690558cab6739a9131469e3300c1da9&=&format=webp&width=613&height=613',

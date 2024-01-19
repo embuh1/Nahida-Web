@@ -5,7 +5,7 @@ export default function Example() {
   return (
     <div>
       <Navbar />
-      <div className="background-image3 min-h-screen items-center justify-center">
+      <div className="background-image3">
 
         <div class="videos-container grid grid-cols-3 gap-3 items-center justify-center">
           <div class="video">
